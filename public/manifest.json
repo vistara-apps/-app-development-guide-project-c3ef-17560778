@@ -1,0 +1,14 @@
+{
+  "name": "RoomMatch Base",
+  "description": "RoomMatch Base is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://c3ef8e62-8f57-4173-b39c-2d2963cfd5fa.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "RoomMatch Base",
+      "description": "RoomMatch Base is a Base Mini App built with Zara.",
+      "url": "https://c3ef8e62-8f57-4173-b39c-2d2963cfd5fa.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
