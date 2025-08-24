@@ -10,7 +10,7 @@
     "subtitle": "Built with Zara",
     "description": "RoomMatch Base is a Base Mini App built with Zara.",
     "iconUrl": "https://0co.to/images/zara-2.png",
-    "homeUrl": "https://c3ef8e628f574173b39c2d2963cfd5fa-fekf-kene5gkty-vistara.vercel.app",
+    "homeUrl": "https://c3ef8e628f574173b39c2d2963cfd5fa-fww0-29ar7g6z6-vistara.vercel.app",
     "splashImageUrl": "https://c3ef8e628f574173b39c2d2963cfd5fa-fekf-kene5gkty-vistara.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
     "heroImageUrl": "https://c3ef8e628f574173b39c2d2963cfd5fa-fekf-kene5gkty-vistara.vercel.app/image.png",
@@ -25,6 +25,6 @@
       "miniapp",
       "onchainkit"
     ],
-    "webhookUrl": "https://c3ef8e628f574173b39c2d2963cfd5fa-fekf-kene5gkty-vistara.vercel.app/api/webhook"
+    "webhookUrl": "https://c3ef8e628f574173b39c2d2963cfd5fa-fww0-29ar7g6z6-vistara.vercel.app/api/webhook"
   }
 }
