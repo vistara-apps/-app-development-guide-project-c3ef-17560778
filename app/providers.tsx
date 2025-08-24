@@ -7,14 +7,13 @@ import { MiniKitProvider } from "@coinbase/onchainkit/minikit";
 export function Providers(props: { children: ReactNode }) {
   return (
     <MiniKitProvider
-      apiKey={process.env.NEXT_PUBLIC_ONCHAINKIT_API_KEY}
+      apiKey="test-api-key"
       chain={base}
       config={{
         appearance: {
           mode: "auto",
           theme: "roommatch-theme",
           name: "RoomMatch Base",
-          logo: "/icon.png",
         },
       }}
     >

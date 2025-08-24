@@ -29,7 +29,6 @@ export default function App() {
   const { setFrameReady, isFrameReady, context } = useMiniKit();
   const [frameAdded, setFrameAdded] = useState(false);
   const [activeView, setActiveView] = useState("listings");
-  const [userRole, setUserRole] = useState<"tenant" | "landlord" | null>(null);
 
   const addFrame = useAddFrame();
   const openUrl = useOpenUrl();
@@ -41,8 +40,12 @@ export default function App() {
   }, [setFrameReady, isFrameReady]);
 
   const handleAddFrame = useCallback(async () => {
-    const frameAdded = await addFrame();
-    setFrameAdded(Boolean(frameAdded));
+    try {
+      const frameAdded = await addFrame();
+      setFrameAdded(Boolean(frameAdded));
+    } catch (error) {
+      console.error("Failed to add frame:", error);
+    }
   }, [addFrame]);
 
   usePrimaryButton(
